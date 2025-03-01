@@ -24,7 +24,7 @@ function activityDiv(id) {
     console.log(taskOne)
     let newElement = document.createElement('div')
     newElement.innerHTML = `<div class="bg-blue-50 p-4 mt-4 rounded-lg">
-                        <p>You have Complete The Task ${taskOne} at ${currentTime}</p>
+                        <p>You have complete the task ${taskOne} at ${currentTime}</p>
                     </div>`
     console.log(newElement)
     let newDiv = document.getElementById('activity-container')
